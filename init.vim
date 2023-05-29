@@ -10,7 +10,7 @@ set foldmethod=marker       "marker的折叠模式
 set nocompatible            "不启用
 "}}}
 "keymap {{{
-nnoremap <Leader>vr :tabe $MYVIMRC<CR>
+nnoremap <Leader>vr :tabe $MYVIMRC<CR> "suggestion code
 nnoremap <Leader>tr :tabe ~/.tmux.conf<CR>
 nnoremap <Leader>hc :noh<CR>
 nnoremap <Leader>w  *N
