@@ -7,7 +7,7 @@ set cursorline              "突出显示当前行
 let mapleader="\<space>"    "使用空格作为先导
 set foldenable              "启动折叠
 set foldmethod=marker       "marker的折叠模式
-set nocompatible            "不启用vi
+set nocompatible            "不启用
 "}}}
 "keymap {{{
 nnoremap <Leader>vr :tabe $MYVIMRC<CR>
