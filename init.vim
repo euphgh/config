@@ -9,6 +9,7 @@ set foldenable              "启动折叠
 set foldmethod=marker       "marker的折叠模式
 set nocompatible            "不启用vi
 "}}}
+" this is bar modify
 "keymap {{{
 nnoremap <Leader>vr :tabe $MYVIMRC<CR>
 nnoremap <Leader>tr :tabe ~/.tmux.conf<CR>
