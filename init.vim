@@ -6,12 +6,12 @@ syntax on                   "语法高亮
 set cursorline              "突出显示当前行
 let mapleader="\<space>"    "使用空格作为先导
 set foldenable              "启动折叠
-set foldmethod=marker       "marker的折叠模式
+set foldmethod=marker       "marker的折叠模式 test hello
 set nocompatible            "不启用vi
 "}}}
+" this is bar modify my suggestion
 "keymap {{{
 nnoremap <Leader>vr :tabe $MYVIMRC<CR>
-nnoremap <Leader>tr :tabe ~/.tmux.conf<CR>
 nnoremap <Leader>hc :noh<CR>
 nnoremap <Leader>w  *N
 "}}}
