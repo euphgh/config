@@ -1,4 +1,5 @@
 "basic{{{
+"hello
 set number                  "设置行号
 syntax on                   "语法高亮
 set cursorline              "突出显示当前行
